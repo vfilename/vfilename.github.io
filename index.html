@@ -27,15 +27,16 @@ a:active
 </style>
 </head>
 <body style="font-family: Georgia, Microsoft YaHei, -apple-system;font-size: 15px;">
-<div style="width:800px;margin:0 auto;">
+<div style="width:815px;margin:0 auto;">
 <h1 style="text-align: center;">V File Name</h1>
 <h2 style="text-align: center;">使用压缩包的文件名进行简单的版本管理</h2>
 <table style="width:650px; border-collapse: collapse;margin:0 auto;">
-    <tr><td width="50%">版本</tdwidth="20%"><td>V0.3.1.0</td></tr>
+    <tr><td width="50%">版本</tdwidth="20%"><td>V0.4.0.0</td></tr>
     <tr><td width="50%">下载</td width="20%"><td><a href="https://www.vfilename.com/download/">https://www.vfilename.com/download/</a></td></tr>
-    <tr><td width="50%">支持</td width="20%"><td>Windows 10 / Windows 7 / WinRAR 6.00</td></tr>
+    <tr><td width="50%">支持压缩工具</td width="20%"><td>7-Zip 19.00 / WinRAR 6.00</td></tr>
+    <tr><td width="50%">支持操作系统</td width="20%"><td>Windows 10 / Windows 7</td></tr>
     <tr><td width="50%">首页</td width="20%"><td><a href="https://www.vfilename.com/">https://www.vfilename.com/</a></td></tr>
-    <tr><td width="50%">VirusTotal</td width="20%"><td>1/69</td></tr>
+    <tr><td width="50%">VirusTotal安全扫描</td width="20%"><td>1/67</td></tr>
     <tr><td width="50%">源代码</td width="20%"><td><a href="https://github.com/vfilename/vfilename">https://github.com/vfilename/vfilename</a></td></tr>
 </table>
 
@@ -43,7 +44,7 @@ a:active
 <ul>
 <li>这个软件非常方便，但是功能性比Git差远了，等于简单直观多了</li>
 <li>简单版本管理：Office文件/电路图文件/Photoshop文件/小型的代码工程/等等</li>
-<li>非常简单粗暴，就是利用WinRAR（WinRAR可算真是“久经考验”）</li>
+<li>非常简单粗暴，就是利用7-Zip/WinRAR（这个软件处理压缩包的文件名）</li>
 <li>完全绿色软件，完全没有联网功能（甚至没有联网检查版本更新）</li>
 <li>即使没有这个软件，版本信息依旧一目了然（版本信息在文件名里面）</li>
 </ul>
@@ -55,11 +56,8 @@ a:active
 <p>DeepL翻译成中文：<br>
 <img src="index-html-img/a002.png"></p>
 
-<p>所以压缩包来保存文档的历史，是可行的，因为Altium靠谱。Windows默认支持ZIP（默认就能对ZIP读写），但是最保险的方案是，Windows不可操作历史压缩包（“别碰这些文件”）。主要选项是RAR和7Z，Google提示RAR更流行：<br>
+<p>所以压缩包来保存文档的历史，是可行的，因为Altium靠谱。Windows默认支持ZIP，这里之所以用7Z/RAR，是因为Windows操作ZIP实在“过于方便”：<br>
 <img src="index-html-img/a003.png"></p>
-
-<p>百度也显示RAR更流行：<br>
-<img src="index-html-img/a004.png"></p>
 
 <p>解压然后双击运行<br>
 <img src="index-html-img/img001.png"></p>
@@ -67,41 +65,47 @@ a:active
 <p>最小化窗口，让它后台运行<br>
 <img src="index-html-img/img002.png"></p>
 
-<p>右键点击要打包的文件，选择WinRAR的“添加到压缩文件”<br>
+<p>7-Zip：右键点击要打包的文件，选择7-Zip的“添加到压缩包”<br>
 <img src="index-html-img/img003.png"></p>
 
-<p>填写用户名（例如“刘志勇”）和说明（例如“一次测试”），点击“生成压缩包”<br>
+<p>WinRAR：右键点击要打包的文件，选择WinRAR的“添加到压缩文件”<br>
 <img src="index-html-img/img004.png"></p>
 
-<p>生成的RAR压缩包，其文件名包含：项目、用户名、时间、说明文字<br>
+<p>7-Zip：填写用户名（例如“刘志勇”）和说明（例如“测试7Z打包”），点击“生成压缩包”<br>
 <img src="index-html-img/img005.png"></p>
 
-<p>在系统托盘单击应用的图标，可以显示应用的窗口<br>
+<p>WinRAR：填写用户名（例如“刘志勇”）和说明（例如“测试RAR打包”），点击“生成压缩包”<br>
 <img src="index-html-img/img006.png"></p>
+
+<p>生成的压缩包，其文件名包含：项目、用户名、时间、说明文字<br>
+<img src="index-html-img/img007.png"></p>
+
+<p>在系统托盘单击应用的图标，可以显示应用的窗口<br>
+<img src="index-html-img/img008.png"></p>
 
 <p>应用的窗口
 <ul>
 <li>关闭这个窗口，可以退出这个应用</li>
 <li><span style="font-weight:bold;">拖动文件夹到这个窗口，可以得到文件夹内的压缩包的表格</span></li>
 </ul>
-<img src="index-html-img/img007.png"></p>
+<img src="index-html-img/img009.png"></p>
 
 <p>压缩包的表格
 <ul>
 <li>可以输入过滤的关键词，显示关注的部分</li>
 <li><span style="font-weight:bold;">可以双击某一行，得到压缩包的解压后的内容</span></li>
 </ul>
-<img src="index-html-img/img008.png"></p>
+<img src="index-html-img/img010.png"></p>
 
 <p>把一个版本的内容送入比较工具（例如Beyond Compare），非常便捷：<br>
-<img src="index-html-img/img009.gif"></p>
+<img src="index-html-img/img011.gif"></p>
 
 <p><a href="https://github.com/vfilename/vfilename">https://github.com/vfilename/vfilename</a></p>
 
 </div>
 <script>
 d=window.devicePixelRatio;if(d==undefined){d=1;}if(d>1.5){d=1.5;}
-w=[638,784,640,718,585,680,530,533,418,320,680,650,584];
+w=[638,784,565,585,680,789,530,496,546,534,320,680,650,584];
 for(i=0;i<=document.images.length-1;i++){document.images[i].width=w[i]/d;}
 </script>
 </body>
